@@ -1,0 +1,10 @@
+.home{
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+.star::before{
+    background-color: white;
+}
+.star::after{
+    background-color: white;
+}

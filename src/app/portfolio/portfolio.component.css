@@ -1,0 +1,27 @@
+.title h2 {
+    color: var(--secondary-color);
+}
+.title span::after{
+    background-color: var(--secondary-color);
+}
+.title span::before{
+    background-color: var(--secondary-color);
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.gallery-item .overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 188, 156, .8);
+    opacity: 0;
+}
+.gallery-item:hover .overlay{
+opacity: 1;
+transition: .7s all;
+}

@@ -1,0 +1,11 @@
+nav{
+    background-color: var(--secondary-color);
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main{
+    background-color: var(--primary-color);
+}
